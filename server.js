@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 
 // Set up connection between session and our sequelize database
 const sess = {
-  secret: "Super secret secret",
+  secret: "Super secret",
   cookie: {
     maxAge: 60 * 60 * 1000,
     httpOnly: true,
@@ -45,7 +45,7 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () =>
     console.log(
-      `\nServer running on port ${PORT}. Visit http://localhost:${PORT} and create an account!`
+      `\nServer running on port ${PORT}. Visit http://localhost:${PORT} and create your account!`
     )
   );
 });
