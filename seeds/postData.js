@@ -24,4 +24,6 @@ const postdata = [
   },
 ];
 
+const seedPost = () => Post.bulkCreate(postdata);
+
 module.exports = seedPost;
