@@ -7,19 +7,19 @@ const userdata = [
     password: "123456789",
   },
   {
-    username: "Fleximus",
+    username: "FleximusPrime",
     email: "felix.glen@gmail.com",
     password: "1234finalstand",
   },
   {
-    username: "Flooper",
+    username: "JumpyPup",
     email: "test.thing@yahoo.com",
     password: "PooFlinger",
   },
   {
-    username: "funker",
-    password: "blibBlop",
+    username: "funkermonkey",
     email: "my.email@msn.com",
+    password: "blibBlop",
   },
 ];
 
