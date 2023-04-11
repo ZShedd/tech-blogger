@@ -1,6 +1,7 @@
 
 package-lock.json
 .DS_Store
+npm-debug.log
 .vscode
 node_modules
 .env
