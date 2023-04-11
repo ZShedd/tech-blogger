@@ -2,24 +2,24 @@ const { Post } = require("../models");
 
 const postdata = [
   {
-    title: "Gobbers Bloopers",
+    title: "Goober Man",
     content: "I am a goober.",
     user_id: "1",
   },
   {
-    title: "Who is Rob?",
+    title: "Who is Bob?",
     content:
-      "Rob Endelman is a chef who, in addition to teaching cooking technique, empowers people with the knowledge to make better choices when it comes to buying and preparing food. He is also kinda silly about having someone who knows.",
+      "Bob is a cat that knows where it is at. They have been seen playing the horn.",
     user_id: "2",
   },
   {
-    title: "Darker",
-    content: "The darkest darkness.",
+    title: "How to Eat",
+    content: "Lets discuss the finest food there is. Pickled Eggs.",
     user_id: "3",
   },
   {
-    title: "HTML is cool.",
-    content: "I like html.",
+    title: "HTML is HTMcooL.",
+    content: "I like html, it creates websites and doesn't afraid of anything.",
     user_id: "4",
   },
 ];
