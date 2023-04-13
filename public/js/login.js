@@ -20,21 +20,23 @@ $(() => {
         }
       }
     };
+  });
   
+  $(() => {
     const signUp = async (event) => {
       event.preventDefault();
-  
+      
       const username = $("#inputUsername").val().trim();
       const email = $("#email2").val().trim();
       const password = $("#password2").val().trim();
-  
+      
       if (username && email && password) {
         const response = await fetch("api/users", {
           method: "POST",
           body: JSON.stringify({ username, email, password }),
           headers: { "Content-Type": "application/json" },
         });
-  
+        
         if (response.ok) {
           console.log('signed up!');
           document.location = "/";
@@ -43,7 +45,9 @@ $(() => {
         }
       }
     };
-  
-    $("#login").submit(login);
-    $("#signUp").submit(signUp);
   });
+  
+  $("#login").submit(login);
+  $("#signUp").submit(signUp);
+  
+  
