@@ -41,6 +41,8 @@ Link to deployed application on Heroku:
 
 https://tech-blogger-1.herokuapp.com/
 
+![Screenshot 2023-04-11 120115](https://user-images.githubusercontent.com/116223460/231287389-760a73cc-7781-4829-ba4c-37e32129d373.png)
+
 ## License
 
 NOTICE:
